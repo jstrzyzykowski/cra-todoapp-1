@@ -11,7 +11,7 @@ const TaskList = props => {
     return (
         <div className="list">
             <ul>
-                {list.length > 0 ? list : "You have no tasks..."}
+                {list.length > 0 ? list : <p className="no-task">You have no tasks...</p>}
             </ul>
         </div>
     );

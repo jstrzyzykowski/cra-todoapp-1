@@ -1,0 +1,59 @@
+.add-task {
+    display: flex;
+    background-color: #666;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.add-task #title {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: 'future-thin';
+    outline: none;
+    border-radius: 5px;
+}
+
+.add-task .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-task #important {
+    margin-right: 5px;
+}
+
+.add-task .label-important {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.add-task #date {
+    padding: 2px;
+    font-size: 1.2rem;
+    font-family: 'future-thin';
+    outline: none;
+    border-radius: 5px;
+    width: 140px;
+    margin-left: 10px;
+}
+
+.add-task button {
+    width: 70px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-task button:hover i {
+    transform: rotate(180deg);
+}
+
+.add-task button i{
+    font-size: 3rem;
+    color: #333;
+    transition: .3s;
+}
+

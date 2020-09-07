@@ -1,3 +1,40 @@
-span.important {
-    color: red;
+p.important {
+    color: #FF4752;
+}
+
+li {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    position: relative;
+    margin: 10px 0;
+}
+
+li div.main {
+    /* margin-right: 20px; */
+    width: 265px;
+    text-align: center;
+}
+
+
+li div p.title {
+    font-size: 1.8rem;
+}
+
+li .term {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.edit-btn,
+.delete-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn i,
+.delete-btn i {
+    font-size: 1.6rem;
 }
