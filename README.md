@@ -1,3 +1,6 @@
+## Project View
+<img src="https://github.com/jstrzyzykowski/cra-todoapp-1/blob/master/img/cra-todoapp-1.png" height="300">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
